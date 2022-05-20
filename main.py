@@ -30,7 +30,7 @@ if __name__ == '__main__':
         idx_album = []
         songs_list = []
         idx_songs = []
-        # 
+        
         while True:
             for idx, data in enumerate(MusicAnalysis.extract_albums_data(Artist.uri)):
                 albums_list.append(Album(data['name'], data['release_date'], data['uri']))
